@@ -66,3 +66,59 @@ li {
 }
 
 }
+
+.landing-page-container {
+  background: #F2F2F2;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 140px;
+  padding-bottom: 50px;
+}
+
+.livestream {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  border: 5px solid #815fc0;
+  z-index: 10;
+  overflow: visible;
+  transition: 1s;
+}
+
+.livestream:hover {
+  border: 5px solid red;
+}
+
+.chat {
+  border-left: none;
+}
+
+@media screen and (max-width: 1679px) {
+
+.livestream,
+.chat {
+  visibility: hidden;
+}
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #503484;
+}
