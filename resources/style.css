@@ -66,6 +66,10 @@ li {
   padding: 0;
 }
 
+.header-container {
+  height: 100px;
+}
+
 }
 
 .landing-page-container {
