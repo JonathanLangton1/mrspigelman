@@ -64,7 +64,7 @@ li {
 }
 
 .logo {
-  padding: 0;
+  padding: 0 !important;
 }
 }
 
@@ -104,6 +104,12 @@ li {
 .livestream,
 .chat {
   visibility: hidden;
+  display: none;
+}
+
+.mobile-watch-now {
+  visibility: visible !important;
+  display: flex !important;
 }
 }
 
@@ -129,4 +135,14 @@ li {
 
 body {
   overflow-x: hidden;
+}
+
+.watch-now-button {
+  background-color: #815FC0;
+  padding: 20px 30px;
+}
+
+.mobile-watch-now {
+  visibility: hidden;
+  display: none;
 }
