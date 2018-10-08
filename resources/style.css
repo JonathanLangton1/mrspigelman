@@ -6,6 +6,7 @@
 .header-container {
   width: 100%;
   max-width: 100%;
+  min-width: 100%;
   display: flex;
   justify-content: flex-start;
   flex-wrap: nowrap;
@@ -65,11 +66,6 @@ li {
 .logo {
   padding: 0;
 }
-
-.header-container {
-  height: 100px;
-}
-
 }
 
 .landing-page-container {
@@ -79,6 +75,9 @@ li {
   justify-content: center;
   padding-top: 140px;
   padding-bottom: 50px;
+  max-width: 100%;
+  width: 100%;
+  min-width: 100%;
 }
 
 .livestream {
@@ -126,4 +125,8 @@ li {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #503484;
+}
+
+body {
+  overflow-x: hidden;
 }
